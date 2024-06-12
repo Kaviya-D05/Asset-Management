@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 5px 20px; /* Adjust the padding as needed */
+    background-color: #f8f9fa; /* Change the background color as needed */
+    height: 100px; /* Adjust the height as needed */
+    font-size:18px;
+    
+    /* Adjust the font size as needed */
+}
+
+
+.logo-img {
+    margin-right: auto; 
+    width: 90px;
+    
+}
+
+.navbar-content {
+    display: flex;
+    align-items: center;
+    padding-left: 700px ;
+    
+}
+
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+.search-icon {
+    margin-left: 20px;
+}
+.nav-link:hover {
+    text-decoration: underline; /* Add underline when link is clicked */
+}
+
+.search-icon:hover {
+    text-decoration: underline; /* Add underline when search icon is clicked */
+}

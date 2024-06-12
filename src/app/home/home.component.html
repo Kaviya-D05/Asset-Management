@@ -1,0 +1,31 @@
+<nav class="navbar">
+    <div class="logo">
+        <img src="assets/logo.jpg" alt="LATO TECH Logo" class="logo-img">
+    </div>
+    
+    <div class="navbar-content">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/products">Asstes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/assetsdata">Asstes Data</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/resources">Resources</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/about">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/contact">Contact us</a>
+            </li>
+        </ul>
+        <div class="search-icon" (click)="toggleSearch()">
+            <mat-icon>search</mat-icon> <!-- Angular Material search icon -->
+            <mat-form-field appearance="outline" *ngIf="showSearch">
+                <input matInput placeholder="Search">
+            </mat-form-field>
+        </div>
+    </div>
+</nav>

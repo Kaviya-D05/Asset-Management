@@ -1,0 +1,35 @@
+<app-home></app-home>
+<div>
+    <form [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
+      <div>
+        <label for="employeeName"><b>Employee Name:</b></label>
+        <input id="employeeName" formControlName="employeeName" type="text">
+      </div>
+      <div>
+        <label for="phone"><b>Phone:</b></label>
+        <input id="phone" formControlName="phone" type="text">
+      </div>
+      <div>
+        <label for="laptop"><b>Laptop:</b></label>
+        <input id="laptop" formControlName="laptop" type="text">
+      </div>
+      <div>
+        <label for="startDate"><b>Start Date:</b></label>
+        <input id="startDate" formControlName="startDate" type="date">
+      </div>
+      <div>
+        <label for="endDate"><b>End Date:</b></label>
+        <input id="endDate" formControlName="endDate" type="date">
+      </div>
+      <div>
+        <label for="remarks"><b>Remarks:</b></label>
+        <input id="remarks" formControlName="remarks" type="text">
+      </div>
+      <div>
+        <label for="attachment"><b>Attachment:</b></label>
+        <input id="attachment" formControlName="attachment" type="file">
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  
