@@ -1,31 +1,49 @@
-<nav class="navbar">
-    <div class="logo">
-        <img src="assets/logo.jpg" alt="LATO TECH Logo" class="logo-img">
-    </div>
-    
-    <div class="navbar-content">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" routerLink="/products">Asstes</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" routerLink="/assetsdata">Asstes Data</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" routerLink="/resources">Resources</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" routerLink="/about">About us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" routerLink="/contact">Contact us</a>
-            </li>
-        </ul>
-        <div class="search-icon" (click)="toggleSearch()">
-            <mat-icon>search</mat-icon> <!-- Angular Material search icon -->
-            <mat-form-field appearance="outline" *ngIf="showSearch">
-                <input matInput placeholder="Search">
-            </mat-form-field>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <!-- Logo and brand -->
+        <a class="navbar-brand" href="#">
+            <img src="assets/logo.jpg" alt="LATO TECH Logo" class="logo-img">
+        </a>
+
+        <!-- Toggler button for mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <!-- Navigation links aligned to the left -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/products">Assets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/assetsdata">Assets Data</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/profile">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/profiledata">Profile Data</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/contact">Contact us</a>
+                </li>
+            </ul>
+
+            <!-- Search form and icon -->
+            <div class="d-flex">
+                <div class="search-icon me-2" (click)="toggleSearch()">
+                    <span class="material-icons">search</span> <!-- Material Icons search icon -->
+                </div>
+
+                <!-- Angular Material form field -->
+                <form class="d-flex" *ngIf="showSearch">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <!-- You might want to handle form submission with Angular -->
+                </form>
+            </div>
         </div>
     </div>
 </nav>

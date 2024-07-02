@@ -1,5 +1,84 @@
 {
   "employees": [
-    
+    {
+      "id": "1479",
+      "employeeName": "Kaviya",
+      "phone": "realme Phone",
+      "laptop": "MAC pro",
+      "startDate": "2024-04-11",
+      "endDate": "",
+      "remarks": "None",
+      "attachment": ""
+    },
+    {
+      "id": "f5a2",
+      "employeeName": "dharani",
+      "phone": "vivo",
+      "laptop": "hp",
+      "startDate": "2023-12-07",
+      "endDate": "",
+      "remarks": "None",
+      "attachment": ""
+    },
+    {
+      "id": "af56",
+      "employeeName": "pransath",
+      "phone": "oppo",
+      "laptop": "MAC pro",
+      "startDate": "2024-02-15",
+      "endDate": "",
+      "remarks": "None",
+      "attachment": ""
+    },
+    {
+      "id": "1e5d",
+      "employeeName": "pransath",
+      "phone": "laptop",
+      "laptop": "MAC pro",
+      "startDate": "2023-06-09",
+      "endDate": "",
+      "remarks": "none",
+      "attachment": ""
+    },
+    {
+      "id": "193a",
+      "employeeName": "dharani",
+      "phone": "realme Phone",
+      "laptop": "MAC pro",
+      "startDate": "2023-11-10",
+      "endDate": "",
+      "remarks": "None",
+      "attachment": ""
+    },
+    {
+      "id": "dd13",
+      "employeeName": "pransath",
+      "phone": "realme Phone",
+      "laptop": "MAC pro",
+      "startDate": "2023-12-01",
+      "endDate": "",
+      "remarks": "None",
+      "attachment": ""
+    },
+    {
+      "id": "e226",
+      "employeeName": "Kaviya",
+      "phone": "realme Phone",
+      "laptop": "MAC pro",
+      "startDate": "2023-12-07",
+      "endDate": "",
+      "remarks": "None",
+      "attachment": ""
+    },
+    {
+      "id": "df40",
+      "employeeName": "pransath",
+      "phone": "oppo",
+      "laptop": "MAC pro",
+      "startDate": "2023-10-25",
+      "endDate": "",
+      "remarks": "none",
+      "attachment": ""
+    }
   ]
 }

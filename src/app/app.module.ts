@@ -12,6 +12,9 @@ import { ProductsComponent } from './products/products.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AsstesDataComponent } from './asstes-data/asstes-data.component';
 import { AgGridModule } from 'ag-grid-angular';
+import { ProfileComponent } from './profile/profile.component';
+
+import { ProfileDataComponent } from './profile-data/profile-data.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +23,9 @@ import { AgGridModule } from 'ag-grid-angular';
     HomeComponent,
     ProductsComponent,
     AsstesDataComponent,
+    ProfileComponent,
+
+    ProfileDataComponent
   
     
   ],

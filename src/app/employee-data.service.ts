@@ -6,11 +6,11 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class EmployeeDataService {
-  private apiUrl = 'http://localhost:3000/employees'; // Adjust URL as necessary
+  private apiUrl = 'http://localhost:3001/employees'; // Adjust URL as necessary
 
   constructor(private http: HttpClient) {}
 
-  saveEmployeeData(data: any): Observable<any> {
+  saveEmployeeData(data: any): Observable<any> {;
     return this.http.post(this.apiUrl, data);
   }
 

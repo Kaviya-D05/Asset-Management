@@ -4,6 +4,8 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
 import { AsstesDataComponent } from './asstes-data/asstes-data.component';
+import { ProfileComponent } from './profile/profile.component';
+import { ProfileDataComponent } from './profile-data/profile-data.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' },
@@ -11,6 +13,8 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   {path:'products',component:ProductsComponent},
   {path:"assetsdata",component:AsstesDataComponent},
+  {path:"profile",component:ProfileComponent},
+  {path:'profiledata',component:ProfileDataComponent},
   { path: '**', redirectTo: 'login' }  // Wildcard route for a 404 page
 ];
 

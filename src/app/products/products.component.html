@@ -29,7 +29,7 @@
         <label for="attachment"><b>Attachment:</b></label>
         <input id="attachment" formControlName="attachment" type="file">
       </div>
-      <button type="submit">Submit</button>
+      <button type="submit" [disabled]="employeeForm.invalid">Submit</button>
     </form>
   </div>
   

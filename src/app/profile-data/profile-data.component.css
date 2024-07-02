@@ -1,0 +1,18 @@
+/* styles.css or styles.scss */
+.submitted-data{
+
+    padding: 30px;
+}
+/* Customize the appearance of header cells */
+.ag-theme-alpine .ag-header-cell {
+  font-weight: bold; /* Make the headers bold */
+}
+
+/* Customize the background color of even and odd header cells */
+.ag-theme-alpine .ag-header-cell:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray background for even headers */
+}
+
+.ag-theme-alpine .ag-header-cell:nth-child(odd) {
+  background-color: #e0e0e0; /* Lighter gray background for odd headers */
+}

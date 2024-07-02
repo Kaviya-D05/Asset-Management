@@ -30,12 +30,12 @@ export class ProductsComponent implements OnInit {
       this.employeeDataService.saveEmployeeData(formDataEntry).subscribe(
         (response) => {
           console.log('Data saved successfully', response);
-          // Optionally, you can reset the form here
+        
           this.employeeForm.reset();
         },
         (error) => {
           console.error('Error saving data', error);
-          // Handle error, e.g., show an error message
+          
         }
       );
     }
